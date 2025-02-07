@@ -1,0 +1,54 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #333; /* Background color for the menu bar */
+    padding: 10px 0;
+    text-align: center; /* Centers the navigation menu */
+}
+
+ul {
+    list-style-type: none; /* Removes bullet points for navigation */
+    margin: 0;
+    padding: 0;
+    display: inline-flex; /* Makes the buttons align horizontally */
+    justify-content: center; /* Centers the buttons */
+}
+
+ul li {
+    margin: 0; /* No extra margin around buttons */
+}
+
+ul li a {
+    text-decoration: none;
+    color: white; /* Text color for the buttons */
+    font-size: 18px;
+    background-color: #333; /* Default button background color */
+    padding: 10px 20px; /* Adds spacing inside the buttons */
+    display: inline-block; /* Makes the entire button clickable */
+    border: 1px solid #555; /* Adds a subtle border around the buttons */
+    text-align: center; /* Centers the text within the buttons */
+}
+
+ul li a:hover {
+    background-color: black; /* Hover effect: changes background color */
+    color: white; /* Ensures the text remains readable */
+}
+
+/* Course List Styles */
+.course-list {
+    list-style-type: disc; /* Adds bullet points for the course list */
+    margin: 20px; /* Adds space around the course list */
+    padding-left: 40px; /* Indents the list */
+    display: block; /* Ensures the list appears vertically */
+}
+
+.course-list li {
+    display: list-item; /* Makes each list item stack vertically */
+    margin-bottom: 10px; /* Adds spacing between items */
+}
